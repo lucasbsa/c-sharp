@@ -1,0 +1,19 @@
+﻿<Window x:Class="LoginUsuario.adicionarServico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginUsuario"
+        mc:Ignorable="d"
+        Title="adicionarServico" Height="222.222" Width="300">
+    <Grid Background="#FF143264">
+        <Label x:Name="labelNomdoDoServico" Content="Nome do Serviço" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelUsuarioDoServico" Content="Usuário do serviço" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelSenhaDoServico" Content="Senha do serviço" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCadastrar" Content="Cadastrar" HorizontalAlignment="Left" Margin="21,160,0,0" VerticalAlignment="Top" Width="75" Click="btnCadastrar_Click"/>
+        <TextBox x:Name="textBoxNomeDoServico" HorizontalAlignment="Left" Height="26" Margin="145,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="textBoxUsuarioDoServico" HorizontalAlignment="Left" Height="26" Margin="145,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBox x:Name="textBoxSenhaDoServico" HorizontalAlignment="Left" Height="26" Margin="145,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+
+    </Grid>
+</Window>
